@@ -1,0 +1,7 @@
+# Ignore cloned repos (large, generated)
+repos/
+
+# Keep results CSV
+!results/
+results/*
+!results/results.csv

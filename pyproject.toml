@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68.0", "setuptools-scm>=8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dockerfile-carbon-optimizer"
+version = "0.1.0"
+description = "CLI tool that analyzes Dockerfiles for energy-wasteful patterns and estimates carbon cost"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "typer>=0.15.0,<0.16.0",
+    "rich>=13.0.0,<15.0.0",
+    "dockerfile-parse>=2.0.0,<3.0.0",
+    "httpx>=0.25.0,<1.0.0",
+]
+
+[project.optional-dependencies]
+energy = ["codecarbon>=2.3.0"]
+dev = [
+    "pytest>=7.0.0,<10.0.0",
+    "pytest-cov>=4.0.0,<8.0.0",
+    "respx>=0.20.0,<1.0.0",
+    "ruff>=0.15.0,<0.16.0",
+]
+
+[project.scripts]
+dco = "dco.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 99
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]

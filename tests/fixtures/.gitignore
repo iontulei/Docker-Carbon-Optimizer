@@ -1,0 +1,18 @@
+# Ignore everything (e.g. generated .dockerignore, .optimized files)
+*
+# Except the fixture files themselves
+!.gitignore
+!clean_multistage.Dockerfile
+!dev_deps_left.Dockerfile
+!Dockerfile
+!empty.Dockerfile
+!expected_fixed_runs.Dockerfile
+!no_multistage_go.Dockerfile
+!simple_python.Dockerfile
+!slim_python.Dockerfile
+!uncombined_runs.Dockerfile
+!oversized_python.Dockerfile
+!unpinned_tag.Dockerfile
+!pinned_tag.Dockerfile
+!expected_fixed_base_image.Dockerfile
+

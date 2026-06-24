@@ -1,0 +1,58 @@
+[
+  {
+    "name": "getting-started-todo-app",
+    "url": "https://github.com/docker/getting-started-todo-app",
+    "lang": "Node",
+    "delete_dockerignore": true
+  },
+  {
+    "name": "flask-sample-app",
+    "url": "https://github.com/codefresh-contrib/python-flask-sample-app",
+    "lang": "Python"
+  },
+  {
+    "name": "docker-curriculum",
+    "url": "https://github.com/prakhar1989/docker-curriculum",
+    "lang": "Python",
+    "dockerfile": "flask-app/Dockerfile",
+    "context": "flask-app"
+  },
+  {
+    "name": "spring-boot-hello",
+    "url": "https://github.com/dstar55/docker-hello-world-spring-boot",
+    "lang": "Java"
+  },
+  {
+    "name": "etherpad",
+    "url": "https://github.com/ether/etherpad-lite",
+    "lang": "Node"
+  },
+  {
+    "name": "umami",
+    "url": "https://github.com/umami-software/umami",
+    "lang": "Node"
+  },
+  {
+    "name": "outline",
+    "url": "https://github.com/outline/outline",
+    "lang": "Node"
+  },
+  {
+    "name": "gitea",
+    "url": "https://github.com/go-gitea/gitea",
+    "lang": "Go",
+    "delete_dockerignore": true,
+    "no_force": true
+  },
+  {
+    "name": "directus",
+    "url": "https://github.com/directus/directus",
+    "lang": "Node"
+  },
+  {
+    "name": "appwrite",
+    "url": "https://github.com/appwrite/appwrite",
+    "lang": "PHP",
+    "delete_dockerignore": true
+  }
+]

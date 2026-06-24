@@ -1,0 +1,19 @@
+{
+  "_comment": "Grid carbon intensity by country/region (gCO2/kWh). Sources: IEA Emissions Factors 2024/2025, Ember Global Electricity Review 2024, Our World in Data.",
+  "world": { "name": "World Average",    "gco2_per_kwh": 445 },
+  "us":    { "name": "United States",    "gco2_per_kwh": 369 },
+  "eu":    { "name": "European Union",   "gco2_per_kwh": 199 },
+  "uk":    { "name": "United Kingdom",   "gco2_per_kwh": 125 },
+  "fr":    { "name": "France",           "gco2_per_kwh": 22 },
+  "de":    { "name": "Germany",          "gco2_per_kwh": 321 },
+  "cn":    { "name": "China",            "gco2_per_kwh": 581 },
+  "in":    { "name": "India",            "gco2_per_kwh": 708 },
+  "au":    { "name": "Australia",        "gco2_per_kwh": 466 },
+  "jp":    { "name": "Japan",            "gco2_per_kwh": 482 },
+  "kr":    { "name": "South Korea",      "gco2_per_kwh": 396 },
+  "ca":    { "name": "Canada",           "gco2_per_kwh": 136 },
+  "br":    { "name": "Brazil",           "gco2_per_kwh": 109 },
+  "se":    { "name": "Sweden",           "gco2_per_kwh": 41 },
+  "no":    { "name": "Norway",           "gco2_per_kwh": 27 },
+  "pl":    { "name": "Poland",           "gco2_per_kwh": 666 }
+}

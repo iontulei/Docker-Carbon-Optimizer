@@ -1,0 +1,38 @@
+{
+  "_comment": "Approximate installed sizes in MB. Sources: apt-cache show / apk info -s on Debian 12 and Alpine 3.19.",
+  "apt": {
+    "gcc": 50,
+    "g++": 55,
+    "build-essential": 250,
+    "make": 2,
+    "cmake": 50,
+    "python3-dev": 30,
+    "python-dev": 30,
+    "libffi-dev": 1,
+    "libssl-dev": 5,
+    "libc-dev": 10,
+    "linux-headers-generic": 50,
+    "gfortran": 40,
+    "autoconf": 2,
+    "automake": 2,
+    "libtool": 5,
+    "pkg-config": 1
+  },
+  "apk": {
+    "gcc": 30,
+    "g++": 35,
+    "build-base": 150,
+    "make": 1,
+    "cmake": 40,
+    "python3-dev": 20,
+    "musl-dev": 10,
+    "linux-headers": 40,
+    "libffi-dev": 1,
+    "openssl-dev": 3,
+    "gfortran": 30,
+    "autoconf": 2,
+    "automake": 1,
+    "libtool": 3,
+    "pkgconfig": 1
+  }
+}
